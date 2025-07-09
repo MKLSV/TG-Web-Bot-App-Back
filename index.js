@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 
 const token = '7807455574:AAHd0hfHtP9smCnuoYK2zAGRRCEGEviVByw';
-const webAppUrl = 'https://tg-web-bot-app.vercel.app';
+const webAppUrl = 'https://tg-web-bot-app-react.vercel.app';
 
 const bot = new TelegramBot(token, { polling: true });
 const app = express()
