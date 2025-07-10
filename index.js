@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '7945939695:AAEU_1O22A9MVkDAzoqwTocqs8T0Dlgompw';
-const webAppUrl = 'https://ornate-selkie-c27577.netlify.app';
+const token = '7807455574:AAHd0hfHtP9smCnuoYK2zAGRRCEGEviVByw';
+const webAppUrl = 'https://tg-web-bot-app-react.vercel.app';
 
 const bot = new TelegramBot(token, { polling: true }); // Можно оставить polling на Render
 
